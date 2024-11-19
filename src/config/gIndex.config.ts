@@ -51,7 +51,7 @@ const config: z.input<typeof Schema_Config> = {
      * You need to create a new folder and share it with the service account
      * Then, copy the folder id and paste it here
      */
-    rootFolder: "382fed0ecf0894fcc5802ff2f5a8e9d6bfda94d1310fb34359804df1a3c0a68314c042f6ae1df6707ab3392ba328bd9a",
+    rootFolder: "97acabbd5560885564d0944e089d5aec7cb44e7c4d99d040960cd1b9d1f3a7cb4b02e6cd0babaa7488cdafd5829d36f6",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -67,7 +67,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then you need to encrypt it using `/api/internal/encrypt?q=:shared_drive_id` route
      */
     isTeamDrive: false,
-    sharedDrive: "382fed0ecf0894fcc5802ff2f5a8e9d6bfda94d1310fb34359804df1a3c0a68314c042f6ae1df6707ab3392ba328bd9a",
+    sharedDrive: "97acabbd5560885564d0944e089d5aec7cb44e7c4d99d040960cd1b9d1f3a7cb4b02e6cd0babaa7488cdafd5829d36f6",
 
     defaultQuery: ["trashed = false", "(not mimeType contains 'google-apps' or mimeType contains 'folder')"],
     defaultField:
